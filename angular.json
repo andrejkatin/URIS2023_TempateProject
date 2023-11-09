@@ -170,11 +170,14 @@
   "defaultProject": "material-dashboard-angular",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "app",
-      "styleext": "scss"
-    },
+      "style": "scss"
+    }
+  },
     "@schematics/angular:directive": {
       "prefix": "app"
+    },
+    "cli": {
+      "analytics": "45cf71d0-adda-42a9-8740-a313f5a4da74"
     }
   },
   "cli": {
